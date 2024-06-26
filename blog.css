@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+   
+ }
+ 
+.nav {
+    max-width: 1200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.search-menu {
+    width: 6%;
+    height: auto;
+}
+
+.top {
+    display: flex;
+    position: relative;
+    margin: 3%;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+}
+
+.image1-text {
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    align-self: flex-end;
+    color: gold;
+    font-size: 1.5rem;
+    
+}
+
+.stock {
+    background-color: grey;
+    font-size: 1rem;
+    padding: 3px;
+    
+}
+
+button {
+    border: none;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.health {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
