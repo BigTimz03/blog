@@ -25,7 +25,8 @@
 .top {
     display: flex;
     position: relative;
-    margin: 3%;
+    padding: 20px;
+    background-color: #f4d5ff;
 }
 
 .image1 {
@@ -39,7 +40,7 @@
     right: 2rem;
     align-self: flex-end;
     color: gold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 
@@ -52,7 +53,7 @@
 
 button {
     border: none;
-    margin-bottom: 15px;
+   
 }
 
 a {
@@ -69,10 +70,29 @@ a {
     font-size: 1rem;
 }
 
-.health {
+.blogs {
     display: flex;
     flex-direction: row;
-    margin: 3%;
+    background-color: #f4d5ff;
+    flex-wrap: wrap;
+}
+
+
+.health {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    /*box-shadow: 0rem 0rem 0.3rem 0rem #aaf4ff;*/
+    border: 4px solid beige;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0.5;
+    
+}
+
+.resp-text {
+    position: relative;
 }
 
 .responsive {
@@ -80,11 +100,38 @@ a {
     height: auto;
 }
 
+.blog-text {
+    position: absolute;
+    left: 1rem;
+    color: darkviolet;
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.resp1 {
+    width: 5%;
+    height: auto;
+    padding-top: 10px;
+}
 
 
+.blog-announcement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-
-
+.announcement {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
