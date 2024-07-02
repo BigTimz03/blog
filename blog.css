@@ -48,7 +48,7 @@
     background-color: grey;
     font-size: 1rem;
     padding: 3px;
-    
+    color: gold;
 }
 
 button {
@@ -57,8 +57,12 @@ button {
 }
 
 a {
-    text-decoration: none;
-    color: gold;
+    text-decoration: none;   
+    transition: background 0.3s ease-in-out;
+}
+
+a:focus {
+    background-color: skyblue;
 }
 
 .name-date {
@@ -82,7 +86,6 @@ a {
     flex-direction: column;
     padding: 20px;
     width: 100%;
-    /*box-shadow: 0rem 0rem 0.3rem 0rem #aaf4ff;*/
     margin: 2%; 
     box-shadow: 0px 0px 5px 0px;
     flex-basis: 46%;
@@ -172,7 +175,20 @@ a {
     padding-top: 25px;
 }
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
 
+.each-navigation {
+    box-shadow: 0px 0px 2px 0px #ffd5f4;
+    padding: 10px;
+    border: solid 1px #ffd5f4; 
+}
 
-
-
+.nav-link {
+    color: green;
+}
