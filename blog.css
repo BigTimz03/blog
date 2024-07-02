@@ -73,8 +73,6 @@ a {
 .blogs {
     display: flex;
     flex-direction: row;
-    
-    
     flex-wrap: wrap;
     flex-basis: 65%;
 }
@@ -131,42 +129,50 @@ a {
     background-color: #f4d5ff;
 }
 
-.latest {
+.latest-announcement {
     display: flex;
     flex-direction: column;
-    flex-basis: 29%;
+    flex-basis: 31%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.latest {
     background-color: whitesmoke;
-    padding-left: 10px;
-    margin-left: 3%;
-    margin-right: 3%;
+    padding: 15px;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 @media(max-width: 600px){
     .blogs {
         flex-basis: 100%;
     }
-}
-
-@media(max-width: 600px){
-    .latest {
+    
+    .latest-announcement {
         flex-basis: 100%;
-        margin-top: 10px;
     }
-}
-
-@media(max-width: 400px){
+    
     .health {
         flex-basis: 100%;
     }
 }
 
-.list {
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
+
 
 .latest-text {
     padding-top: 25px;
 }
+
+
+.list {
+    padding-top: 25px;
+}
+
+
+
+
+
