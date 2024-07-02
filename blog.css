@@ -8,7 +8,7 @@
 .nav {
     max-width: 1200px;
 }
-
+/*
 .header {
     display: flex;
     flex-direction: row;
@@ -20,7 +20,7 @@
 .search-menu {
     width: 6%;
     height: auto;
-}
+}*/
 
 .top {
     display: flex;
