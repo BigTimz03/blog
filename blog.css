@@ -103,27 +103,49 @@ a:focus {
     height: auto;
 }
 
-.blog-text {
-    position: absolute;
-    left: 1rem;
-    color: darkviolet;
-    padding-top: 10px;
-    font-size: 1.3rem;
+
+
+
+.midfooter { display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    margin-top: 10rem;
+
 }
 
-.options {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
+.notes {display: flex;
+gap: 1rem;
+flex-direction: column;
+font-weight: bold;
+padding-bottom: 2rem;
+padding-left: 2rem;
+color: gold;}
 
-.resp1 {
-    width: 4vw;
+.imgwidth {
+    width: 100%;
     height: auto;
+    gap: 2rem;
+    padding-bottom: 1rem;
 }
+.connectnow {
 
+    justify-content: center;
+    background-color: gray;
+    color: gold;
+    padding: 10px;
+    border-radius: 10px;
+align-self: center;
+    margin-top: 1rem;
+    
+    
+    
+    
+
+
+        
+    
+}
 
 .blog-announcement {
     display: flex;
