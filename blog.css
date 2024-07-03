@@ -80,8 +80,27 @@ a {
     height: auto;
 }
 
+.midfooter { display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    margin-top: 10rem;
 
+}
 
+.notes {display: flex;
+gap: 1rem;
+flex-direction: column;
+font-weight: bold;
+padding-bottom: 2rem;
+padding-left: 2rem;
+color: gold;}
+
+.imgwidth {
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+}
 
 
 
