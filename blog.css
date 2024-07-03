@@ -8,7 +8,7 @@
 .nav {
     max-width: 1200px;
 }
-
+/*
 .header {
     display: flex;
     flex-direction: row;
@@ -20,12 +20,13 @@
 .search-menu {
     width: 6%;
     height: auto;
-}
+}*/
 
 .top {
     display: flex;
     position: relative;
-    margin: 3%;
+    padding: 20px;
+    background-color: #f4d5ff;
 }
 
 .image1 {
@@ -39,7 +40,7 @@
     right: 2rem;
     align-self: flex-end;
     color: gold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
 }
 
@@ -47,17 +48,21 @@
     background-color: grey;
     font-size: 1rem;
     padding: 3px;
-    
+    color: gold;
 }
 
 button {
     border: none;
-    margin-bottom: 15px;
+   
 }
 
 a {
-    text-decoration: none;
-    color: gold;
+    text-decoration: none;   
+    transition: background 0.3s ease-in-out;
+}
+
+a:focus {
+    background-color: skyblue;
 }
 
 .name-date {
@@ -69,16 +74,37 @@ a {
     font-size: 1rem;
 }
 
-.health {
+.blogs {
     display: flex;
     flex-direction: row;
-    margin: 3%;
+    flex-wrap: wrap;
+    flex-basis: 65%;
+}
+
+.health {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    margin: 2%; 
+    box-shadow: 0px 0px 5px 0px;
+    flex-basis: 46%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 25px;
+}
+
+.resp-text {
+    position: relative;
 }
 
 .responsive {
     width: 100%;
     height: auto;
 }
+
+
+
 
 .midfooter { display: flex;
     flex-direction: column;
@@ -116,14 +142,75 @@ align-self: center;
     
     
 
+
         
     
 }
 
+.blog-announcement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f4d5ff;
+}
+
+.latest-announcement {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 31%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.latest {
+    background-color: whitesmoke;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 600px){
+    .blogs {
+        flex-basis: 100%;
+    }
+    
+    .latest-announcement {
+        flex-basis: 100%;
+    }
+    
+    .health {
+        flex-basis: 100%;
+    }
+}
 
 
 
+.latest-text {
+    padding-top: 25px;
+}
 
 
+.list {
+    padding-top: 25px;
+}
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
 
+.each-navigation {
+    box-shadow: 0px 0px 2px 0px #ffd5f4;
+    padding: 10px;
+    border: solid 1px #ffd5f4; 
+}
+
+.nav-link {
+    color: green;
+}
