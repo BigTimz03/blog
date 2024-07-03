@@ -100,8 +100,25 @@ color: gold;}
     width: 100%;
     height: auto;
     gap: 2rem;
+    padding-bottom: 1rem;
 }
+.connectnow {
 
+    justify-content: center;
+    background-color: gray;
+    color: gold;
+    padding: 10px;
+    border-radius: 10px;
+align-self: center;
+    margin-top: 1rem;
+    
+    
+    
+    
+
+        
+    
+}
 
 
 
