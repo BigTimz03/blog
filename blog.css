@@ -103,12 +103,31 @@ a:focus {
     height: auto;
 }
 
+blog-text {
+    position: absolute;
+    left: 1rem;
+    color: darkviolet;
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
 
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.resp1 {
+    width: 4vw;
+    height: auto;
+}
 
 
 .midfooter { display: flex;
     flex-direction: column;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-bottom: 1rem;
     margin-top: 10rem;
 
@@ -120,6 +139,7 @@ flex-direction: column;
 font-weight: bold;
 padding-bottom: 2rem;
 padding-left: 2rem;
+padding-right: 2rem;
 color: gold;}
 
 .imgwidth {
